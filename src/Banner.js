@@ -20,7 +20,6 @@ function Banner() {
    fetchData();
  }, [])
 
- console.log(movie);
 
 
 
