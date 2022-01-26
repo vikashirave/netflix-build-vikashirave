@@ -25,6 +25,7 @@ function Nav() {
           alt="netflix_logo"
         />
         <img
+          onClick={() => history.push("/profile")}
           className="nav__avatar"
           src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
           alt="avatar"
